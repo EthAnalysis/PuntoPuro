@@ -1,0 +1,257 @@
+// Import Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Variables
+$punto-gold: #D4AF37;
+$punto-gold-light: lighten($punto-gold, 10%);
+$dark-blue: #1a2b3c;
+$off-white: #f8f9fa;
+
+// Global styles
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+}
+
+// Language Selector
+.language-selector {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  
+  .form-select {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 1px solid $punto-gold;
+    width: auto;
+    padding-right: 2.5rem;
+    
+    &:focus {
+      border-color: darken($punto-gold, 10%);
+      box-shadow: 0 0 0 0.25rem rgba($punto-gold, 0.25);
+    }
+  }
+}
+
+// Hero Section
+.hero-section {
+  background: 
+    linear-gradient(135deg, rgba(212, 175, 55, 0.2) 0%, rgba(212, 175, 55, 0.1) 100%),
+    url('/bocce-red-closeup.jpg') center/cover no-repeat;
+  position: relative;
+  min-height: 100vh;
+  color: white;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      linear-gradient(135deg, rgba(26, 43, 60, 0.95), rgba(26, 43, 60, 0.8)),
+      url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23D4AF37" fill-opacity="0.2" d="M0,96L48,112C96,128,192,160,288,186.7C384,213,480,235,576,213.3C672,192,768,128,864,128C960,128,1056,192,1152,208C1248,224,1344,192,1392,176L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') bottom/100% no-repeat;
+    z-index: 0;
+  }
+  
+  .container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .brand-logo {
+    max-width: 400px;
+    height: auto;
+    margin-bottom: 2rem;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  }
+  
+  .hero-image {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    border: 8px solid white;
+  }
+  
+  h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    color: $punto-gold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .lead {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  }
+  
+  .btn-primary {
+    background-color: $punto-gold;
+    border-color: $punto-gold;
+    padding: 0.8rem 2rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 12px rgba(212, 175, 55, 0.3);
+    
+    &:hover {
+      background-color: $punto-gold-light;
+      border-color: $punto-gold-light;
+      transform: translateY(-2px);
+      box-shadow: 0 6px 16px rgba(212, 175, 55, 0.4);
+    }
+  }
+}
+
+// Company Section
+.company-section {
+  padding: 5rem 0;
+  background-color: $off-white;
+  
+  h2 {
+    color: $dark-blue;
+    margin-bottom: 3rem;
+  }
+  
+  .founder-story {
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .nostalgic-image {
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+    
+    &:hover {
+      filter: grayscale(0%);
+    }
+  }
+}
+
+// Problems & Solutions Section
+.problems-solutions {
+  .problems-card,
+  .solutions-card {
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    height: 100%;
+    
+    h3 {
+      color: $dark-blue;
+      border-bottom: 2px solid $punto-gold;
+      padding-bottom: 1rem;
+    }
+    
+    ul {
+      list-style: none;
+      padding-left: 0;
+      
+      li {
+        padding: 0.5rem 0;
+        position: relative;
+        padding-left: 1.5rem;
+        
+        &::before {
+          content: '•';
+          color: $punto-gold;
+          position: absolute;
+          left: 0;
+          font-size: 1.2em;
+        }
+      }
+    }
+  }
+}
+
+// Specs Section
+.specs-section {
+  background: 
+    linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.7)),
+    url('/gold-bg.jpg') center/cover no-repeat;
+  
+  h2 {
+    color: $dark-blue;
+  }
+  
+  .specs-details,
+  .package-details {
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    
+    h3 {
+      color: $dark-blue;
+      border-bottom: 2px solid $punto-gold;
+      padding-bottom: 1rem;
+    }
+    
+    ul {
+      list-style: none;
+      padding-left: 0;
+      
+      li {
+        padding: 0.5rem 0;
+        position: relative;
+        padding-left: 1.5rem;
+        
+        &::before {
+          content: '•';
+          color: $punto-gold;
+          position: absolute;
+          left: 0;
+          font-size: 1.2em;
+        }
+      }
+    }
+    
+    .note {
+      font-style: italic;
+      color: lighten($dark-blue, 20%);
+    }
+  }
+}
+
+// CTA Section
+.cta-section {
+  background: linear-gradient(135deg, $dark-blue, darken($dark-blue, 10%));
+  
+  .btn-primary {
+    background-color: $punto-gold;
+    border-color: $punto-gold;
+    
+    &:hover {
+      background-color: $punto-gold-light;
+      border-color: $punto-gold-light;
+    }
+  }
+  
+  .btn-outline-light {
+    &:hover {
+      background-color: white;
+      color: $dark-blue;
+    }
+  }
+}
+
+// Footer
+footer {
+  .footer-logo {
+    height: 30px;
+    width: auto;
+    margin-right: 0.5rem;
+    transition: transform 0.3s ease;
+    
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}

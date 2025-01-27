@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "Precisão Aperfeiçoada",
+    "subtitle": "As melhores bolas de bocha do mundo, criadas para campeões e conhecedores",
+    "cta": "Descobrir Coleção"
+  },
+  "features": {
+    "title": "Precisão Incomparável",
+    "balance": {
+      "title": "Equilíbrio Perfeito",
+      "description": "Projetadas com precisão para rolamento consistente e controle ideal"
+    },
+    "materials": {
+      "title": "Materiais Premium",
+      "description": "Fabricadas com os melhores materiais para durabilidade e desempenho"
+    },
+    "heritage": {
+      "title": "Herança Italiana",
+      "description": "Construídas sobre gerações de maestria e experiência"
+    }
+  },
+  "technical": {
+    "title": "Excelência Técnica",
+    "features": {
+      "title": "Características Profissionais",
+      "list": [
+        "Superfície altamente polida para arremessos com efeito ideais",
+        "Consistência de peso líder do setor",
+        "Construção monobloco",
+        "Durabilidade de competição"
+      ]
+    },
+    "specs": {
+      "title": "Série Competição 107mm",
+      "list": [
+        "Tamanho regulamentar USBF e FIB: diâmetro 107mm",
+        "Peso de competição: 920 gramas (tolerância ±2,5g)",
+        "Material 100% consistente",
+        "Especificações certificadas para torneios"
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Punto Puro. Todos os direitos reservados."
+  }
+}

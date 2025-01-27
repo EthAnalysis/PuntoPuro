@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-5-starter",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "i18next": "^23.7.11",
+    "i18next-browser-languagedetector": "^7.2.0",
+    "country-flag-icons": "^1.5.9"
+  },
+  "devDependencies": {
+    "sass": "~1.64.2",
+    "vite": "^4.4.9"
+  }
+}

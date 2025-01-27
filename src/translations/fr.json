@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "La Précision Perfectionnée",
+    "subtitle": "Les meilleures boules de pétanque au monde, conçues pour les champions et les connaisseurs",
+    "cta": "Découvrir la Collection"
+  },
+  "features": {
+    "title": "Précision Inégalée",
+    "balance": {
+      "title": "Équilibre Parfait",
+      "description": "Conçues avec précision pour un roulement constant et un contrôle optimal"
+    },
+    "materials": {
+      "title": "Matériaux Premium",
+      "description": "Fabriquées avec les meilleurs matériaux pour la durabilité et la performance"
+    },
+    "heritage": {
+      "title": "Héritage Italien",
+      "description": "Construites sur des générations de savoir-faire et d'expertise"
+    }
+  },
+  "technical": {
+    "title": "Excellence Technique",
+    "features": {
+      "title": "Caractéristiques Professionnelles",
+      "list": [
+        "Surface hautement polie pour des tirs à effet optimaux",
+        "Constance de poids leader du secteur",
+        "Construction monobloc",
+        "Durabilité de compétition"
+      ]
+    },
+    "specs": {
+      "title": "Série Compétition 107mm",
+      "list": [
+        "Taille réglementaire USBF & FIB : diamètre 107mm",
+        "Poids de compétition : 920 grammes (tolérance ±2,5g)",
+        "Matériau 100% homogène",
+        "Spécifications certifiées pour les tournois"
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Punto Puro. Tous droits réservés."
+  }
+}

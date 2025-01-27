@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "Precision Perfected",
+    "subtitle": "The world's finest bocce balls, crafted for champions and connoisseurs",
+    "cta": "Discover Collection"
+  },
+  "features": {
+    "title": "Unmatched Precision",
+    "balance": {
+      "title": "Perfect Balance",
+      "description": "Engineered with precision for consistent rolling and optimal control"
+    },
+    "materials": {
+      "title": "Premium Materials",
+      "description": "Crafted from the finest materials for durability and performance"
+    },
+    "heritage": {
+      "title": "Italian Heritage",
+      "description": "Built on generations of bocce craftsmanship and expertise"
+    }
+  },
+  "technical": {
+    "title": "Technical Excellence",
+    "features": {
+      "title": "Professional Features",
+      "list": [
+        "High-polish surface for optimal backspin shots",
+        "Industry-leading weight consistency",
+        "Single-piece construction",
+        "Competition-grade durability"
+      ]
+    },
+    "specs": {
+      "title": "107mm Competition Series",
+      "list": [
+        "Official USBF & FIB regulation size: 107mm diameter",
+        "Competition weight: 920 grams (±2.5g tolerance)",
+        "100% consistent material throughout",
+        "Tournament-certified specifications"
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Punto Puro. All rights reserved."
+  }
+}

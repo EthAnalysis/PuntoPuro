@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "完美精确",
+    "subtitle": "世界上最好的滚球，为冠军和鉴赏家打造",
+    "cta": "探索系列"
+  },
+  "features": {
+    "title": "无与伦比的精确度",
+    "balance": {
+      "title": "完美平衡",
+      "description": "精确设计，确保稳定滚动和最佳控制"
+    },
+    "materials": {
+      "title": "优质材料",
+      "description": "采用最优质的材料，确保耐用性和性能"
+    },
+    "heritage": {
+      "title": "意大利传承",
+      "description": "建立在世代工艺和专业知识之上"
+    }
+  },
+  "technical": {
+    "title": "技术卓越",
+    "features": {
+      "title": "专业特点",
+      "list": [
+        "高度抛光表面，实现最佳旋转投掷",
+        "行业领先的重量一致性",
+        "整体式结构",
+        "竞赛级耐用性"
+      ]
+    },
+    "specs": {
+      "title": "107mm竞赛系列",
+      "list": [
+        "USBF和FIB规格尺寸：直径107mm",
+        "竞赛重量：920克（误差±2.5克）",
+        "100%一致的材质",
+        "锦标赛认证规格"
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Punto Puro. 保留所有权利。"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "hero": {
+    "title": "Perfezione di Precisione",
+    "subtitle": "Le migliori bocce al mondo, create per campioni e intenditori",
+    "cta": "Scopri la Collezione"
+  },
+  "features": {
+    "title": "Precisione Impareggiabile",
+    "balance": {
+      "title": "Equilibrio Perfetto",
+      "description": "Progettate con precisione per un rotolamento costante e un controllo ottimale"
+    },
+    "materials": {
+      "title": "Materiali Premium",
+      "description": "Realizzate con i migliori materiali per durabilità e prestazioni"
+    },
+    "heritage": {
+      "title": "Eredità Italiana",
+      "description": "Costruite su generazioni di maestria e competenza nelle bocce"
+    }
+  },
+  "technical": {
+    "title": "Eccellenza Tecnica",
+    "features": {
+      "title": "Caratteristiche Professionali",
+      "list": [
+        "Superficie lucidata per tiri ottimali con effetto",
+        "Consistenza del peso leader del settore",
+        "Costruzione monoblocco",
+        "Durabilità da competizione"
+      ]
+    },
+    "specs": {
+      "title": "Serie Competizione 107mm",
+      "list": [
+        "Dimensione regolamentare USBF e FIB: diametro 107mm",
+        "Peso da competizione: 920 grammi (tolleranza ±2,5g)",
+        "Materiale 100% consistente",
+        "Specifiche certificate per tornei"
+      ]
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Punto Puro. Tutti i diritti riservati."
+  }
+}
